@@ -1,0 +1,25 @@
+{
+  "name": "wechat",
+  "version": "1.0.0",
+  "description": "business wechat third library",
+  "keywords": [
+    "wechat",
+    "business wechat"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alpha",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.14"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "promise": "^8.0.1"
+  }
+}

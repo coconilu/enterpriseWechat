@@ -1,0 +1,1 @@
+const { WXHelper } = require('./dist/bundle')
