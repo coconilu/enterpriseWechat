@@ -1,5 +1,6 @@
 # 企业微信API第三方
 
+源码友好的，阅读门槛低
 Promise编程风格，几乎所有API都会返回promise
 
 API版本：2018.4.11
@@ -9,7 +10,7 @@ communication：通讯录，包括成员管理、部门管理、标签管理、�
 outer-communication:外部通讯录，包括成员对外信息、获取企业客户列表、关联企业客户库
 app-manage：应用管理，包括获取应用、设置应用、获取应用列表、自定义菜单
 notification：消息推送，包括发送应用信息、接受消息与实践、发送消息到群聊会话
-matter-manage：素材管理
+fodder-manage：素材管理
 authentication：身份验证,包括网页授权登录、扫码授权登录
 mobile-SDK：移动端SDK
 OA-data：OA数据接口，包括获取打卡规则、获取打卡数据、获取审批数据
@@ -18,7 +19,7 @@ electronic-invoice：电子发票
 third-api：第三方开放接口
 
 
-## 重要说明
+## 身份验证
 对于身份验证环节，说明一下网页授权登录和扫码授权登录的联系与区别。
 
 网页授权登录指的是从企业微信终端（包括桌面版和手机版）打开的网页，可以获取成员的身份信息，实现免登录。
@@ -31,3 +32,5 @@ third-api：第三方开放接口
 
 获取员工信息的时候，可以通过设置scope来获取基本信息或者敏感信息
 ![员工信息划分](https://p.qpic.cn/pic_wework/23479275/a1a780ad673ffee20722b8e791d5ef7bd2b3ad6cf8db197c/0)
+
+## 素材管理
